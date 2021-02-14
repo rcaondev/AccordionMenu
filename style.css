@@ -1,0 +1,46 @@
+/*Global Settings*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F8F0FB;
+    font-family:   Verdana ;
+}
+
+/*Global Settings*/
+
+.section{
+    background-color: #211A1D;
+    padding: .9rem;
+    border-bottom: 2px solid #6320EE;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    color: #F8F0FB;
+    letter-spacing: .1rem;
+}
+.content{
+    background-color: #CAD5CA;
+    padding: 1rem;
+    line-height: 1.5rem;
+    display: none;
+    color: #211A1D;
+}
+
+span{
+    position: absolute;
+    right: 1rem;
+}
+.active{
+    display: block;
+}
+
+.container{
+    width: 40%;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 10%;
+}
